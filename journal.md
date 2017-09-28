@@ -55,3 +55,19 @@ you can use git add "filename" to add a file to your localy reprosity and git co
 
 git log shows the history of changes to the git reprosity.
 
+Hacking the robot!
+------------------
+the first thing we did was find the ip address of the robot, we did this by connecting to the robot on the internet by typing chapman.local and loggging in using nao as username and password.
+We then clicked the connection to get the ip address.
+
+one we found the ip address we conected to the robot through the terminal by using ssh nao@192.168.0.184 (which was the ip address) and again the password was nao
+
+after we were loged in we started python by simply typing phython.
+
+now we wrote the sample code provided...
+from naoqi import ALProxy
+tts = ALProxy("ALTextToSpeech", "localhost", 9559)
+tts.say("I've hacked you, robot!")
+
+this allowed us to get the robot to speak :)
+

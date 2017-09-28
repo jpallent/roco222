@@ -1,30 +1,39 @@
-#what is markdown?
+What is markdown?
+=================
 
 markdown is a way to style text on the web.It allows you to mcontrol the display of the document e.g ( formating word into italic , adding images,creatings lists ...) It is just regular text with some non-alphabetic characters put in.
 
-#key syntax rules
-## Headers 
+Key syntax rules
+================
+
+Headers 
+-------
 you can use put the '#' key in front of a sentence to make it a header, and '##' for a sub header and so on...
 
-##Emphasis 
+Emphasis 
+--------
 you can use either '*' or _ either side of a word or sentence to make it italic 
 or 
 '**' or '__' to make it bold 
 
-##Lists
+Lists
+-----
 for lists you can use either '*' for unordered or '1.' and so on for an ordered list 
 
-##images 
+Images 
+------
 you can add an image by using '![Alt Text](url)' 
 
-##links 
+Links 
+-----
 you can add links by using '[Alt Text](url)' 
 
-##Blockquotes 
+Blockquotes 
+-----------
 you can use '>' at the front of a sentence to nmake it a block quote
 
 
-#step 2 the terminal 
+# Step 2 the terminal 
 * ls shows the available folders in the current directory 
 * cd /tmp is a tempory directory that is very fast 
 * cd $home this takes you back to the home directory 
@@ -38,7 +47,8 @@ you can use '>' at the front of a sentence to nmake it a block quote
 * cat / proc/cpuinfo opens and displays content of file
 
 
- #using git
+Using git
+---------
 git uses a localy repository on you pc to md files and git files that can be uploadecd to the git hub repository which is a clone of the one created on the system. 
 
 you can use git add "filename" to add a file to your localy reprosity and git commit to commit it to git hub with a title.

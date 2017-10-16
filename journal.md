@@ -73,6 +73,8 @@ this allowed us to get the robot to speak :)
 
 Lab 2: Building a DC motor
 ==========================
+Lab 1
+-----
 * First step is to put the copper tape around the cork leaving 2 gaps so that wire can be wrappped around it.then pushing 2 pins in either side of the cork to act as the shaft for it to spin. We then wraped some tape around the bottom.
 
 * After doing this we wrapped about 10m of copper wire around the cork and commutator. As we wrapped it around we counted how many turns and in the end we finished with 139 turns.we then soldered the ends of the wires to each side of the copper commutator.
@@ -83,6 +85,8 @@ Lab 2: Building a DC motor
 
 * when supplying the motor with a voltage and 2A current limmit we managed to get a decent spin out of it. The higher the voltage we supplied the faster it span.
 
+Lab 2:
+------
 
 
 

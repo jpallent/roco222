@@ -88,6 +88,22 @@ Lab 1
 Lab 2:
 ------
 
+* First we started to redesign the commutator on solid works so that we could put 2 coils around it and so the surface for the brushes is smoother. 
+
+* we then designed some magnet mounts and bearing mounts to support the commutator.
+https://guides.github.com/features/mastering-markdown/
+*after we designed these we tried to redesign the way the brushes worked so that it was more constant.
+
+P3: Incremental encoder:
+------------------------
+
+* We have printed the stl files having a few problems with the printer i was using , however the peices came out functional. we rebuild the motor and soldered everything up.
+
+* The motor seems to be running slower than before , I believe this is due to the fact that we opted to print the motor shaft with the commutator. This means the magnetic feild is not as strong. Also we put less coils on each one. we plan to adjust this in the future labs if we have time.
+
+* We have just soldered the IR light source and detector up and checked that it was working. we then opted to hot glue this on to the bearing stand as this is where the shaft extends out and where we put the encoder disk. 
+
+
 
 
 

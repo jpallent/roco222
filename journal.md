@@ -103,6 +103,16 @@ P3: Incremental encoder:
 
 * We have just soldered the IR light source and detector up and checked that it was working. we then opted to hot glue this on to the bearing stand as this is where the shaft extends out and where we put the encoder disk. 
 
+p4
+--
+
+
+
+p5: stepper motor and arduino
+------------------------------
+* As the motor is uni-polar we have 2 extra wires for ground and power, however we want it bi-polar so that it has more tourque. so we connected the (blue and red) and the (green and black) and ignored the white and yellow wires. 
+
+
 
 
 

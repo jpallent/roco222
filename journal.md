@@ -103,6 +103,12 @@ P3: Incremental encoder:
 
 * We have just soldered the IR light source and detector up and checked that it was working. we then opted to hot glue this on to the bearing stand as this is where the shaft extends out and where we put the encoder disk. 
 
+We had alot of problems tring to get the circuit to work as one of the components was faulty but after 2 attempts at the circuit it finally works. 
+
+* once connected to the arduino the led blinks when the motor is spun
+
+* when we connected the incremental encoder to the motor we had a few problems, one of which was when we provided power to the motor the encoder seemed to detect movement even when it was pointing away from the encoder disk.
+
 p4
 --
 
@@ -113,6 +119,18 @@ p5: stepper motor and arduino
 * As the motor is uni-polar we have 2 extra wires for ground and power, however we want it bi-polar so that it has more tourque. so we connected the (blue and red) and the (green and black) and ignored the white and yellow wires. 
 
 
+p6: robot arm project servo control
+-----------------------------------
+
+
+
+p6: robot arm project design
+-----------------------------
+* we started to look at basic robot arm design on the internet for example thingiverse. After knowing what the basic structure should be we bagan work designing the arm in fusion 360.
+
+
+p7: robot arm project ROS
+--------------------------
 
 
 

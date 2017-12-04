@@ -107,7 +107,7 @@ We had alot of problems tring to get the circuit to work as one of the component
 
 * once connected to the arduino the led blinks when the motor is spun
 
-* when we connected the incremental encoder to the motor we had a few problems, one of which was when we provided power to the motor the encoder seemed to detect movement even when it was pointing away from the encoder disk.
+* when we connected the incremental encoder to the motor we had a few problems, one of which was when we provided power to the motor the encoder seemed to detect movement even when it was pointing away from the encoder disk. We believe that this is due to noise from the electronics after testing on an ocillascope we could see that there was indead alot of noise causing it to read values. we tried connecting all the grounds but this did not help . we then tried adding a decoupling capacitor accross the motor terminals this ...... (add more)
 
 p4
 --
@@ -121,17 +121,17 @@ p5: stepper motor and arduino
 
 p6: robot arm project servo control
 -----------------------------------
-
+* we had a problem when trying to use the potentiometer to move the servos we believe that this is because the potentiometer resistance is too low which is why its suddenly jumping positions instead of moving gradually. (add more)
 
 
 p6: robot arm project design
 -----------------------------
-* we started to look at basic robot arm design on the internet for example thingiverse. After knowing what the basic structure should be we bagan work designing the arm in fusion 360.
+* We started to look at basic robot arm design on the internet for example thingiverse. After knowing what the basic structure should be we began work designing the arm in fusion 360. i finished the design but made a simple error of having one part of the servo mount out of line. after changing that and then setting the point of origin as the turning point i was then able to export as stl to print and use in ros software.
 
 
 p7: robot arm project ROS
 --------------------------
-
+* we had a few problems with finding the ros libary in arduino we found that this was because we had the web version of arduino installed so we had to install arduino again through the terminal. 
 
 
 

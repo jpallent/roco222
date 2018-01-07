@@ -93,7 +93,9 @@ We did this by marking the cork and slowly increaseing the voltage, while videoi
 Lab 2: Building a better motor
 ------------------------------
 
-* First we started to redesign the commutator on solid works so that we could put 2 coils around it and so the surface for the brushes is smoother. There are 2 advantages of having 2 (or more) coils on he armature is
+* First we started to redesign the commutator on solid works so that we could put 2 coils around it and so the surface for the brushes is smoother. 
+
+There are 2 advantages of having 2 (or more) coils on the armature... 
 1. It means that the motor doesnt need a push start it should start rotaing no matter what orientation the motor begins in as there is allways gonna be a force acting on it.
 2. It also means that the motor will spin faster as the force acting on i is doubled and it will have slightly more torque.
 
@@ -101,7 +103,7 @@ Lab 2: Building a better motor
 
 * We then decided to improve the way the brushes worked by soldering the wires to copper table then sticking it to the base and taping it down so that each part was being pushed against the armature. after some testing we found that this isnt the best of soloutions as it was faulty at times.
 
-* If we were to improve the design we would add more turns to each coil as this would increase the current around the commutator therefor incraseing the force crate by the magnetic feild and the coil interacting, this would increase the speed at which the motor is able to rotate and icrease the torque slightly. We would also try and improve the brushes so that they wernt as temperamental.
+* If we were to improve the design we would add more turns to each coil as this would increase the current around the commutator therefor incraseing the force crate by the magnetic feild and the coil interacting, this would increase the speed at which the motor is able to rotate and icrease the torque slightly. We would also try and improve the brushes so that they wernt as temperamental. Also i would use an iron core instead of 3D printing it on the armature, this would make the motor turn faster and increase the torque as it would increase the magnetic field strength.
 
 * When printing the stl files the first time i decided to print them on my own printer, however I had a few problems as the print seemed to fail at 70% each time giving unfinised prints. After reading up on it I believe that the printer go damaged during transport to university and the sd card reader became faulty or the sd card was faulty. I decided to get the parts printed at the university but upon reciveing them I relised I gave a bit to much leeway to the sockets for the magnets and bearing, but we decided to use hot glue to keep them in place.
 
@@ -110,15 +112,17 @@ Lab 2: Building a better motor
 Practical 3: Incremental encoder:
 =================================
 
-* The motor seems to be running slower than before , I believe this is due to the fact that we opted to print the motor shaft with the commutator. This means the magnetic feild is not as strong. Also we put less coils on each one. we plan to adjust this in the future labs if we have time.
+* After some more testing with the motor we decided to change it a bit further by making the gap between the copper plates smaller so that the brushes are always in contact. Also the motor seemed to spin slow, we found out that this was because the second coil wasnt conducting so we resoldered the wire on and the motor seemed to work much better.
 
-* We have just soldered the IR light source and detector up and checked that it was working. we then opted to hot glue this on to the bearing stand as this is where the shaft extends out and where we put the encoder disk. 
+* To make the roteing disk we drew a circle on a piece of card and cut it out. Then we cut a triangle out so that the IR led would be seen by the IR reciever. This allows us to measure the time it takes to rotate the disk once and we can use this to work out the speed of the motor. We glued this onto the end of the motor shaft.
 
-We had alot of problems tring to get the circuit to work as one of the components was faulty but after 2 attempts at the circuit it finally works. 
+* We connected up the components as shown on the circuit diagram on a breadboard to test it worked. but it wasnt working. We tried to test each part by doing a Continuity test, however there was no cross circuiting and each component seemed to connect across. We decided to get it checked however we were told that it should be working. After testing each component seperately we found that the IR led wasnt working. We got a new led and it began to work.
 
-* once connected to the arduino the led blinks when the motor is spun
+* Next we soldered it all onto a prototype board and tested again and it all worked. We then decided to attatch it to the bearing stand at the end of the motor with hot glue so that it was in the correct position.  
 
-* when we connected the incremental encoder to the motor we had a few problems, one of which was when we provided power to the motor the encoder seemed to detect movement even when it was pointing away from the encoder disk. We believe that this is due to noise from the electronics after testing on an ocillascope we could see that there was indead alot of noise causing it to read values. we tried connecting all the grounds but this did not help . we then tried adding a decoupling capacitor accross the motor terminals this ...... (add more)
+* To test that it worked we connected the encoder to the arduino board and launched the sample code. This seemed to wrok fine, everytime we rotated the motor by hand and the led was visable through the gap the led on the arduino board would light up. This acted as a visual reprentation that the motor had rotated once.
+
+* When we connected the incremental encoder to the motor we had a few problems, one of which was when we provided power to the motor the encoder seemed to detect movement even when it was pointing away from the encoder disk. We believe that this is due to noise from the electronics after testing on an ocillascope we could see that there was indead alot of noise causing it to incorectly read values. We tried connecting all the grounds together but this did not help. Next we tried adding a decoupling capacitor accross the motor terminals however this didnt seem to work. After a discusion with the teachers and we couldnt figure it out we were told to move on and come back to it if we had time the end.
 
 Practical 4: motor control with Arduino
 =======================================

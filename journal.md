@@ -34,6 +34,7 @@ you can use '>' at the front of a sentence to nmake it a block quote
 
 
 # Step 2 the terminal 
+----------------------
 * ls shows the available folders in the current directory 
 * cd /tmp is a tempory directory that is very fast 
 * cd $home this takes you back to the home directory 
@@ -71,33 +72,43 @@ tts.say("I've hacked you, robot!")
 
 this allowed us to get the robot to speak :)
 
-Lab 2: Building a DC motor
-==========================
-Lab 1
------
-* First step is to put the copper tape around the cork leaving 2 gaps so that wire can be wrappped around it.then pushing 2 pins in either side of the cork to act as the shaft for it to spin. We then wraped some tape around the bottom.
+Practical 2: Building a DC motor
+================================
+Lab 1: Building a basic commutator
+-----------------------------------
 
-* After doing this we wrapped about 10m of copper wire around the cork and commutator. As we wrapped it around we counted how many turns and in the end we finished with 139 turns.we then soldered the ends of the wires to each side of the copper commutator.
+* The first thing we did was putting the copper tape around the cork,making sure to leave 2 gaps so that wire can be wrappped around it.  next we pushed 2 pins in either side of the cork to act as the shaft for it to spin on. to finish it off we added some black table around the middle section to keep the copper in place.
 
-* When measureing the resistance of the coil we got a resistance of about 7.4 ohms
+* The next step was to add the wire. We wrapped about 10m of copper wire around the cork between the gaps of the copper ring on the commutator. We made sure as we were wrapping the wire around the commutator to count how many turns, In the end we finished with 139 turns. We then soldered the ends of the wires to each side of the copper commutator to complete the circuit. The wire we used was enamelled so that when it was wrapped around the commutator it didnt conduct across, this would slow down the speed of rotation of the armature.
 
-* we set the magnets to attract as this is how a motor work it inturupts the magnetic feild betwwen the 2 magnets. 
+* We then measured the resistance of the coil and got a resistance of about 7.4 ohms.
 
-* when supplying the motor with a voltage and 2A current limmit we managed to get a decent spin out of it. The higher the voltage we supplied the faster it span.
+* After screwing in the paper clips either end of the wood board to act as brackets we set the armature inbetween making sure the nails were supported by the paper clip, but still able to rotate relatively freely. Next we screwed in 2 paperclips on the opposite sides of the coil so that we could place magnets on them to create a magnetic field across the coil. We set the magnets to attract as this is how a motor works by inturupting the magnetic feild between the 2 magnets. We made sure to test the magnets either way to make sure that we did have the correct orientation. 
 
-Lab 2:
-------
+* For the brushes we decided to start of my just touching the wires to the copper plates but found that this wasnt very effective. We decided to stick the wires each to a piece of copper tape, this gave us a better surface contact with the copper on the armature. 
 
-* First we started to redesign the commutator on solid works so that we could put 2 coils around it and so the surface for the brushes is smoother. 
+* We then decided to test how well the motor worked. When supplying the motor with a voltage of about 5v and 2A current limmit we managed to get a decent spin out of it. After some more testing we found that the higher the voltage we supplied the faster it rotated.
+We did this by marking the cork and slowly increaseing the voltage, while videoing the motor so that we could see how many spins it did in a given time.  (add speed here)
 
-* we then designed some magnet mounts and bearing mounts to support the commutator.
-https://guides.github.com/features/mastering-markdown/
-*after we designed these we tried to redesign the way the brushes worked so that it was more constant.
+Lab 2: Building a better motor
+------------------------------
 
-P3: Incremental encoder:
-------------------------
+* First we started to redesign the commutator on solid works so that we could put 2 coils around it and so the surface for the brushes is smoother. There are 2 advantages of having 2 (or more) coils on he armature is
+1. It means that the motor doesnt need a push start it should start rotaing no matter what orientation the motor begins in as there is allways gonna be a force acting on it.
+2. It also means that the motor will spin faster as the force acting on i is doubled and it will have slightly more torque.
 
-* We have printed the stl files having a few problems with the printer i was using , however the peices came out functional. we rebuild the motor and soldered everything up.
+* To improve the appearance and function of the motor we decided to buy some bearing so that the armature would spin more freely as here wouldnt be as much friction. We also designed brackets for both the magnets and the bearings.
+
+* We then decided to improve the way the brushes worked by soldering the wires to copper table then sticking it to the base and taping it down so that each part was being pushed against the armature. after some testing we found that this isnt the best of soloutions as it was faulty at times.
+
+* If we were to improve the design we would add more turns to each coil as this would increase the current around the commutator therefor incraseing the force crate by the magnetic feild and the coil interacting, this would increase the speed at which the motor is able to rotate and icrease the torque slightly. We would also try and improve the brushes so that they wernt as temperamental.
+
+* When printing the stl files the first time i decided to print them on my own printer, however I had a few problems as the print seemed to fail at 70% each time giving unfinised prints. After reading up on it I believe that the printer go damaged during transport to university and the sd card reader became faulty or the sd card was faulty. I decided to get the parts printed at the university but upon reciveing them I relised I gave a bit to much leeway to the sockets for the magnets and bearing, but we decided to use hot glue to keep them in place.
+
+(add stl file or pictures)
+
+Practical 3: Incremental encoder:
+=================================
 
 * The motor seems to be running slower than before , I believe this is due to the fact that we opted to print the motor shaft with the commutator. This means the magnetic feild is not as strong. Also we put less coils on each one. we plan to adjust this in the future labs if we have time.
 
@@ -109,27 +120,29 @@ We had alot of problems tring to get the circuit to work as one of the component
 
 * when we connected the incremental encoder to the motor we had a few problems, one of which was when we provided power to the motor the encoder seemed to detect movement even when it was pointing away from the encoder disk. We believe that this is due to noise from the electronics after testing on an ocillascope we could see that there was indead alot of noise causing it to read values. we tried connecting all the grounds but this did not help . we then tried adding a decoupling capacitor accross the motor terminals this ...... (add more)
 
-p4
---
+Practical 4: motor control with Arduino
+=======================================
 
 
 
-p5: stepper motor and arduino
-------------------------------
+Practical 5: stepper motor and arduino
+======================================
 * As the motor is uni-polar we have 2 extra wires for ground and power, however we want it bi-polar so that it has more tourque. so we connected the (blue and red) and the (green and black) and ignored the white and yellow wires. 
 
 
-p6: robot arm project servo control
------------------------------------
+Practical 6: robot arm project 
+==============================
+Servo control
+-------------
 * we had a problem when trying to use the potentiometer to move the servos we believe that this is because the potentiometer resistance is too low which is why its suddenly jumping positions instead of moving gradually. (add more)
 
 
-p6: robot arm project design
+robot arm project design
 -----------------------------
 * We started to look at basic robot arm design on the internet for example thingiverse. After knowing what the basic structure should be we began work designing the arm in fusion 360. i finished the design but made a simple error of having one part of the servo mount out of line. after changing that and then setting the point of origin as the turning point i was then able to export as stl to print and use in ros software.
 
 
-p7: robot arm project ROS
+Practical 7: robot arm project ROS
 --------------------------
 * we had a few problems with finding the ros libary in arduino we found that this was because we had the web version of arduino installed so we had to install arduino again through the terminal. 
 

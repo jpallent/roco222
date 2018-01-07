@@ -94,7 +94,6 @@ Lab 2: Building a better motor
 ------------------------------
 
 * First we started to redesign the commutator on solid works so that we could put 2 coils around it and so the surface for the brushes is smoother. 
-
 There are 2 advantages of having 2 (or more) coils on the armature... 
 1. It means that the motor doesnt need a push start it should start rotaing no matter what orientation the motor begins in as there is allways gonna be a force acting on it.
 2. It also means that the motor will spin faster as the force acting on i is doubled and it will have slightly more torque.
@@ -131,7 +130,7 @@ Practical 4: motor control with Arduino
 
 Practical 5: stepper motor and arduino
 ======================================
-* As the motor is uni-polar we have 2 extra wires for ground and power, however we want it bi-polar so that it has more tourque. so we connected the (blue and red) and the (green and black) and ignored the white and yellow wires. 
+* As the motor is uni-polar we have 2 extra wires for ground and power, however we want it bi-polar so that it has more torque. so we connected the (blue and red) and the (green and black) and ignored the white and yellow wires. 
 
 
 Practical 6: robot arm project 
@@ -141,14 +140,31 @@ Servo control
 * we had a problem when trying to use the potentiometer to move the servos we believe that this is because the potentiometer resistance is too low which is why its suddenly jumping positions instead of moving gradually. (add more)
 
 
-robot arm project design
------------------------------
-* We started to look at basic robot arm design on the internet for example thingiverse. After knowing what the basic structure should be we began work designing the arm in fusion 360. i finished the design but made a simple error of having one part of the servo mount out of line. after changing that and then setting the point of origin as the turning point i was then able to export as stl to print and use in ros software.
+Robot arm project design
+------------------------
+* We started to look at basic robot arm design on the internet (for example thingiverse). Firstly we took measurements of the servo itself so that we knew how to connect it to the arm. After knowing what the basic structure should be we began work designing the arm in Fusion 360. 
+
+* The first step was to make a simpe bracket to hold the servo in place and screw it into. After doing this we copyed the file several times so that we had a bracket for each part. The base was the first thing to be designed I drew a circle around the bracket giving a bit of leeway. Next I drew another circle 5mm apart giving it a frairly strong base.then I raised it to a height to cover the servo.
+
+* Next was the top of the base, this was designed seperately so that the base was free to rotate. For this I created the circle as in the base and raised it so that the servo would just fit throught the top. I then added the bracket at 90 degrees so that the first arm would be able to fit and rotate. The bracket has a hole to allow the arm to rotate with support on both sides. then inside of the bracket has a whole in the shape of the servo arm so that when the servo arm is inserted it is flush with the top of the base and has something to push on.
+
+* After createing the base I created the first arm this was just a bracket attached to arms to connect to another bracket.these turned by having the arm indented into the side making it flush with the side. The next part of the arm is the same as this one.
+
+* The second arm part is the connection to the claw. its simmilar to the first arm part, however the bracket is replaced by a rotated bracket and wholes for the claw arms. The claw arms are rods with arms coming out with cogs merged with the top. Then this was mirrored to create the second one. These arms are held on by washers. I finished them all of my fileting the edges and indenting roco22 into the sides to make it look better.
+
+* The cogs didnt seem to fit very well together as I didnt have support for them at the top meaning they just moved apart when turned. If I had more time I would try and make these better.
+
+* Once printed I had to do some sanding and drill some holes for the wires as I forgot to add these into the design. Another problem was I forgot to add room on the base for the first arm to rotate so I had to round of the corners alot so it could rotate. Upon testing the servos did struggle to lift the arm however with more time we might be able to power them seperately so that they have enough power to lift the arm. We tested by connecting either one or two servos and found they were much weaker with both connected , I believe that this is because there isnt enough current to power many.
+
 
 
 Practical 7: robot arm project ROS
 --------------------------
-* we had a few problems with finding the ros libary in arduino we found that this was because we had the web version of arduino installed so we had to install arduino again through the terminal. 
+* We had a few problems with finding the ros libary in arduino however we found that this was because we had the web version of arduino installed, so we had to install arduino again through the terminal. We then launched the example code onto the arduino board so we could control the servos. After launcing roscore and rviz we were able to import the urdf example file into rviz and control the servos on the basic design.
+
+* Next we decided to split the tasks so that I did the urdf file and my partner did the arduino part. The first step was to understand the urdf file, I did this by researching the file format then alot of ttrial and error to see what each part was. Then I created a new folder on my computer with the stl files of each part of the arm. 
+
+* I added one stl file at a time to test if it worked, I then used the example code to see the structure and added each joint. After adding each joint and stl files all I had to do was change each parts origin and rotational origin so that it created a representation of the arm in real life.  (add picture of arm)
 
 
 

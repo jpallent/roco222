@@ -129,8 +129,6 @@ Practical 3: Incremental encoder:
 Practical 4: motor control with Arduino
 =======================================
 
-
-
 Practical 5: stepper motor and arduino
 ======================================
 * As the motor is uni-polar we have 2 extra wires for ground and power, however we want it bi-polar so that it has more torque. so we connected the (blue and red) and the (green and black) and ignored the white and yellow wires. 
@@ -163,9 +161,9 @@ Robot arm project design
 
 
 
-![Step 2 <a name = "building a dc motor" >Image][Image2]
+![Step 2 <a name = "building a dc motor" >STL][Stl1]
 
-[Image2]: https://github.com/jpallent/roco222/blob/master/bracket1.stl "basic commutator"
+[Stl1]: https://github.com/jpallent/roco222/blob/master/bracket1.stl "basic commutator"
  "arm1"
 
 

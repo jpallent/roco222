@@ -161,6 +161,14 @@ Robot arm project design
 
 [bracket1](https://github.com/jpallent/roco222/blob/master/bracket1.stl)
 
+![part1 <a name = "First bracket" >stl][stl1]
+
+[stl1]: ![Step 1 <a name = "building a dc motor" >Image][Image1]
+
+[Image1]: https://github.com/jpallent/roco222/blob/master/IMG_0219.JPG "basic commutator"
+ "arm1"
+
+
 Practical 7: robot arm project ROS
 --------------------------
 * We had a few problems with finding the ros libary in arduino however we found that this was because we had the web version of arduino installed, so we had to install arduino again through the terminal. We then launched the example code onto the arduino board so we could control the servos. After launcing roscore and rviz we were able to import the urdf example file into rviz and control the servos on the basic design.

@@ -163,11 +163,12 @@ Practical 3: Incremental encoder:
 
 ![Step15 Image][Image15]
 
-[Image15]: https://github.com/jpallent/roco222/blob/master/arm.jpg "basic commutator"
+[Image15]: https://github.com/jpallent/roco222/blob/master/IMG_0246.JPG "basic commutator"
 
 ![Step16 Image][Image16]
 
-[Image16]: https://github.com/jpallent/roco222/blob/master/arm.jpg "basic commutator"
+[Image16]: https://github.com/jpallent/roco222/blob/master/IMG_0247.JPG "basic commutator"
+
 
 
 Practical 4: motor control with Arduino

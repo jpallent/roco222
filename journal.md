@@ -55,8 +55,7 @@ git log shows the history of changes to the git reprosity.
 
 Hacking the robot!
 ------------------
-the first thing we did was find the ip address of the robot, we did this by connecting to the robot on the internet by typing chapman.local and loggging in using nao as username and password.
-We then clicked the connection to get the ip address.
+the first thing we did was find the ip address of the robot, we did this by connecting to the robot on the internet by typing chapman.local and loggging in using nao as username and password. We then clicked the connection to get the ip address.
 
 one we found the ip address we conected to the robot through the terminal by using ssh nao@192.168.0.184 (which was the ip address) and again the password was nao
 
@@ -78,7 +77,7 @@ Lab 1: Building a basic commutator
 
 '[commutator 1](https://www.youtube.com/watch?v=SINxiaI2JwI)'
 
-![step1 >Image][Image1]
+![step1 Image][Image1]
 [Image1]: https://github.com/jpallent/roco222/blob/master/IMG_0219.JPG "basic commutator"
 
 * The next step was to add the wire. We wrapped about 10m of copper wire around the cork between the gaps of the copper ring on the commutator. We made sure as we were wrapping the wire around the commutator to count how many turns, In the end we finished with 139 turns. We then soldered the ends of the wires to each side of the copper commutator to complete the circuit. The wire we used was enamelled so that when it was wrapped around the commutator it didnt conduct across, this would slow down the speed of rotation of the armature.

@@ -78,7 +78,6 @@ Lab 1: Building a basic commutator
 
 '[commutator 1](https://www.youtube.com/watch?v=SINxiaI2JwI)'
 
-![Step 1 <a name = "building a dc motor" >Image][Image1]
 
 [Image1]: https://github.com/jpallent/roco222/blob/master/IMG_0219.JPG "basic commutator"
 
@@ -121,7 +120,7 @@ Practical 3: Incremental encoder:
 * We connected up the components as shown on the circuit diagram on a breadboard to test it worked. but it wasnt working. We tried to test each part by doing a Continuity test, however there was no cross circuiting and each component seemed to connect across. We decided to get it checked however we were told that it should be working. After testing each component seperately we found that the IR led wasnt working. We got a new led and it began to work.
 
 * Next we soldered it all onto a prototype board and tested again and it all worked. We then decided to attatch it to the bearing stand at the end of the motor with hot glue so that it was in the correct position.  
-
+,
 * To test that it worked we connected the encoder to the arduino board and launched the sample code. This seemed to wrok fine, everytime we rotated the motor by hand and the led was visable through the gap the led on the arduino board would light up. This acted as a visual reprentation that the motor had rotated once.
 
 * When we connected the incremental encoder to the motor we had a few problems, one of which was when we provided power to the motor the encoder seemed to detect movement even when it was pointing away from the encoder disk. We believe that this is due to noise from the electronics after testing on an ocillascope we could see that there was indead alot of noise causing it to incorectly read values. We tried connecting all the grounds together but this did not help. Next we tried adding a decoupling capacitor accross the motor terminals however this didnt seem to work. After a discusion with the teachers and we couldnt figure it out we were told to move on and come back to it if we had time the end.
@@ -155,7 +154,7 @@ Robot arm project design
 * The second arm part is the connection to the claw. its simmilar to the first arm part, however the bracket is replaced by a rotated bracket and wholes for the claw arms. The claw arms are rods with arms coming out with cogs merged with the top. Then this was mirrored to create the second one. These arms are held on by washers. I finished them all of my fileting the edges and indenting roco22 into the sides to make it look better.
 [Arm 3](https://github.com/jpallent/roco222/blob/master/Claw1.stl)
 
-* The cogs didnt seem to fit very well together as I didnt have support for them at the top meaning they just moved apart when turned. If I had more time I would try and make these better. [Claw 1](https://github.com/jpallent/roco222/blob/master/clawarm1.stl) [Claw 2](https://github.com/jpallent/roco222/blob/master/clawarm2.stl) [Cog](https://github.com/jpallent/roco222/blob/master/cog.stl) [Washer](https://github.com/jpallent/roco222/blob/master/holder.stl)
+* The cogs didnt seem to fit very well together as I didnt have support for them at the top meaning they just moved apart when turned. If I had more time I would try and make these better. [Claw 1](https://github.com/jpallent/roco222/blob/master/clawarm1.stl), [Claw 2](https://github.com/jpallent/roco222/blob/master/clawarm2.stl), [Cog](https://github.com/jpallent/roco222/blob/master/cog.stl) and [Washer](https://github.com/jpallent/roco222/blob/master/holder.stl)
 
 * Once printed I had to do some sanding and drill some holes for the wires as I forgot to add these into the design. Another problem was I forgot to add room on the base for the first arm to rotate so I had to round of the corners alot so it could rotate. Upon testing the servos did struggle to lift the arm however with more time we might be able to power them seperately so that they have enough power to lift the arm. We tested by connecting either one or two servos and found they were much weaker with both connected , I believe that this is because there isnt enough current to power many.
 

@@ -159,7 +159,7 @@ Robot arm project design
 
 * Once printed I had to do some sanding and drill some holes for the wires as I forgot to add these into the design. Another problem was I forgot to add room on the base for the first arm to rotate so I had to round of the corners alot so it could rotate. Upon testing the servos did struggle to lift the arm however with more time we might be able to power them seperately so that they have enough power to lift the arm. We tested by connecting either one or two servos and found they were much weaker with both connected , I believe that this is because there isnt enough current to power many.
 
-
+[bracket1](https://github.com/jpallent/roco222/blob/master/bracket1.stl)
 
 Practical 7: robot arm project ROS
 --------------------------

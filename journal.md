@@ -73,8 +73,6 @@ Lab 1: Building a basic commutator
 
 * The first thing we did was putting the copper tape around the cork,making sure to leave 2 gaps so that wire can be wrappped around it.  next we pushed 2 pins in either side of the cork to act as the shaft for it to spin on. to finish it off we added some black table around the middle section to keep the copper in place.
 
-'[commutator 1](https://www.youtube.com/watch?v=SINxiaI2JwI)'
-
 ![Step1 Image][Image3]
 
 [Image3]: https://github.com/jpallent/roco222/blob/master/IMG_0219.JPG "basic commutator" 
@@ -93,6 +91,8 @@ Lab 1: Building a basic commutator
 
 * After screwing in the paper clips either end of the wood board to act as brackets we set the armature inbetween making sure the nails were supported by the paper clip, but still able to rotate relatively freely. Next we screwed in 2 paperclips on the opposite sides of the coil so that we could place magnets on them to create a magnetic field across the coil. We set the magnets to attract as this is how a motor works by inturupting the magnetic feild between the 2 magnets. We made sure to test the magnets either way to make sure that we did have the correct orientation. 
 
+[Opposing Magnets](https://www.youtube.com/watch?v=h_XL3oUzkJ0)
+
 ![Step4 Image][Image6]
 
 [Image6]: https://github.com/jpallent/roco222/blob/master/IMG_0222.JPG "basic commutator"
@@ -105,6 +105,12 @@ Lab 1: Building a basic commutator
 
 * We then decided to test how well the motor worked. When supplying the motor with a voltage of about 5v and 2A current limmit we managed to get a decent spin out of it. After some more testing we found that the higher the voltage we supplied the faster it rotated.
 We did this by marking the cork and slowly increaseing the voltage, while videoing the motor so that we could see how many spins it did in a given time.  (add speed here)
+
+[Wire brushes](https://www.youtube.com/watch?v=h_XL3oUzkJ0)
+
+[Copper tape brushes](https://www.youtube.com/watch?v=ZZyAr5DxDUE)
+
+
 
 Lab 2: Building a better motor
 ------------------------------
@@ -147,6 +153,8 @@ Practical 3: Incremental encoder:
 
 * When we connected the incremental encoder to the motor we had a few problems, one of which was when we provided power to the motor the encoder seemed to detect movement even when it was pointing away from the encoder disk. We believe that this is due to noise from the electronics after testing on an ocillascope we could see that there was indead alot of noise causing it to incorectly read values. We tried connecting all the grounds together but this did not help. Next we tried adding a decoupling capacitor accross the motor terminals however this didnt seem to work. After a discusion with the teachers and we couldnt figure it out we were told to move on and come back to it if we had time the end.
 
+[Encoder test](https://www.youtube.com/watch?v=vn7QSk69KVY)
+
 ![Step10 Image][Image10]
 
 [Image10]: https://github.com/jpallent/roco222/blob/master/IMG_0237.JPG "basic commutator"
@@ -157,6 +165,8 @@ Practical 4: motor control with Arduino
 Practical 5: stepper motor and arduino
 ======================================
 * As the motor is uni-polar we have 2 extra wires for ground and power, however we want it bi-polar so that it has more torque. so we connected the (blue and red) and the (green and black) and ignored the white and yellow wires. 
+
+[Stepper motor 1: Full-step mode](https://www.youtube.com/watch?v=vn7QSk69KVY)
 
 ![Step11 Image][Image11]
 
@@ -207,9 +217,8 @@ Practical 7: robot arm project ROS
 
 [Image13]: https://github.com/jpallent/roco222/blob/master/IMG_0243.JPG "basic commutator"
 
-![Step14 Image][Image14]
+[Robot arm moving with ROS](https://www.youtube.com/watch?v=3TiCBh8qIgg)
 
-[Image14]: https://github.com/jpallent/roco222/blob/master/IMG_0244.JPG "basic commutator"
 
 
 

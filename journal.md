@@ -76,7 +76,6 @@ Lab 1: Building a basic commutator
 
 '[commutator 1](https://www.youtube.com/watch?v=SINxiaI2JwI)'
 
-![Step1 ,a name = "Building a DC motor">Image][Image2]
 
 [Image2]: https://github.com/jpallent/roco222/blob/master/IMG_0219.JPG "basic commutator"
 

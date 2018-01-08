@@ -76,7 +76,9 @@ Lab 1: Building a basic commutator
 
 '[commutator 1](https://www.youtube.com/watch?v=SINxiaI2JwI)'
 
-![Image1]: https://github.com/jpallent/roco222/blob/master/IMG_0219.JPG  "basic commutator"
+![Step1 ,a name = "Building a DC motor">Image][Image2]
+
+[Image2]: https://github.com/jpallent/roco222/blob/master/IMG_0219.JPG "basic commutator"
 
 * The next step was to add the wire. We wrapped about 10m of copper wire around the cork between the gaps of the copper ring on the commutator. We made sure as we were wrapping the wire around the commutator to count how many turns, In the end we finished with 139 turns. We then soldered the ends of the wires to each side of the copper commutator to complete the circuit. The wire we used was enamelled so that when it was wrapped around the commutator it didnt conduct across, this would slow down the speed of rotation of the armature.
 

@@ -165,7 +165,7 @@ Robot arm project design
 
 [stl1]: ![Step 1 <a name = "building a dc motor" >Image][Image1]
 
-[Image1]: https://github.com/jpallent/roco222/blob/master/IMG_0219.JPG "basic commutator"
+[Image1]: https://github.com/jpallent/roco222/blob/master/bracket1.stl "basic commutator"
  "arm1"
 
 

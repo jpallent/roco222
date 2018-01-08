@@ -77,13 +77,29 @@ Lab 1: Building a basic commutator
 
 ![Step1 Image][Image3]
 
-[Image3]: https://github.com/jpallent/roco222/blob/master/IMG_0219.JPG "basic commutator"
+[Image3]: https://github.com/jpallent/roco222/blob/master/IMG_0219.JPG "basic commutator" 
+
+![Step2 Image][Image4]
+
+[Image4]: https://github.com/jpallent/roco222/blob/master/IMG_0220.JPG "basic commutator"
 
 * The next step was to add the wire. We wrapped about 10m of copper wire around the cork between the gaps of the copper ring on the commutator. We made sure as we were wrapping the wire around the commutator to count how many turns, In the end we finished with 139 turns. We then soldered the ends of the wires to each side of the copper commutator to complete the circuit. The wire we used was enamelled so that when it was wrapped around the commutator it didnt conduct across, this would slow down the speed of rotation of the armature.
+
+![Step3 Image][Image5]
+
+[Image5]: https://github.com/jpallent/roco222/blob/master/IMG_0221.JPG "basic commutator"
 
 * We then measured the resistance of the coil and got a resistance of about 7.4 ohms.
 
 * After screwing in the paper clips either end of the wood board to act as brackets we set the armature inbetween making sure the nails were supported by the paper clip, but still able to rotate relatively freely. Next we screwed in 2 paperclips on the opposite sides of the coil so that we could place magnets on them to create a magnetic field across the coil. We set the magnets to attract as this is how a motor works by inturupting the magnetic feild between the 2 magnets. We made sure to test the magnets either way to make sure that we did have the correct orientation. 
+
+![Step4 Image][Image6]
+
+[Image6]: https://github.com/jpallent/roco222/blob/master/IMG_0222.JPG "basic commutator"
+
+![Step5 Image][Image7]
+
+[Image7]: https://github.com/jpallent/roco222/blob/master/IMG_0223.JPG "basic commutator"
 
 * For the brushes we decided to start of my just touching the wires to the copper plates but found that this wasnt very effective. We decided to stick the wires each to a piece of copper tape, this gave us a better surface contact with the copper on the armature. 
 
@@ -99,6 +115,14 @@ There are 2 advantages of having 2 (or more) coils on the armature...
 2. It also means that the motor will spin faster as the force acting on i is doubled and it will have slightly more torque.
 
 * To improve the appearance and function of the motor we decided to buy some bearing so that the armature would spin more freely as here wouldnt be as much friction. We also designed brackets for both the magnets and the bearings.
+
+![Step8 Image][Image8]
+
+[Image8]: https://github.com/jpallent/roco222/blob/master/IMG_0235.JPG "basic commutator"
+
+![Step9 Image][Image9]
+
+[Image9]: https://github.com/jpallent/roco222/blob/master/IMG_0236.JPG "basic commutator"
 
 * We then decided to improve the way the brushes worked by soldering the wires to copper table then sticking it to the base and taping it down so that each part was being pushed against the armature. after some testing we found that this isnt the best of soloutions as it was faulty at times.
 
@@ -118,10 +142,14 @@ Practical 3: Incremental encoder:
 * We connected up the components as shown on the circuit diagram on a breadboard to test it worked. but it wasnt working. We tried to test each part by doing a Continuity test, however there was no cross circuiting and each component seemed to connect across. We decided to get it checked however we were told that it should be working. After testing each component seperately we found that the IR led wasnt working. We got a new led and it began to work.
 
 * Next we soldered it all onto a prototype board and tested again and it all worked. We then decided to attatch it to the bearing stand at the end of the motor with hot glue so that it was in the correct position.  
-,
+
 * To test that it worked we connected the encoder to the arduino board and launched the sample code. This seemed to wrok fine, everytime we rotated the motor by hand and the led was visable through the gap the led on the arduino board would light up. This acted as a visual reprentation that the motor had rotated once.
 
 * When we connected the incremental encoder to the motor we had a few problems, one of which was when we provided power to the motor the encoder seemed to detect movement even when it was pointing away from the encoder disk. We believe that this is due to noise from the electronics after testing on an ocillascope we could see that there was indead alot of noise causing it to incorectly read values. We tried connecting all the grounds together but this did not help. Next we tried adding a decoupling capacitor accross the motor terminals however this didnt seem to work. After a discusion with the teachers and we couldnt figure it out we were told to move on and come back to it if we had time the end.
+
+![Step10 Image][Image10]
+
+[Image10]: https://github.com/jpallent/roco222/blob/master/IMG_0237.JPG "basic commutator"
 
 Practical 4: motor control with Arduino
 =======================================
@@ -130,6 +158,9 @@ Practical 5: stepper motor and arduino
 ======================================
 * As the motor is uni-polar we have 2 extra wires for ground and power, however we want it bi-polar so that it has more torque. so we connected the (blue and red) and the (green and black) and ignored the white and yellow wires. 
 
+![Step11 Image][Image11]
+
+[Image11]: https://github.com/jpallent/roco222/blob/master/IMG_0238.JPG "basic commutator"
 
 Practical 6: robot arm project 
 ==============================
@@ -166,7 +197,19 @@ Practical 7: robot arm project ROS
 
 * Next we decided to split the tasks so that I did the urdf file and my partner did the arduino part. The first step was to understand the urdf file, I did this by researching the file format then alot of ttrial and error to see what each part was. Then I created a new folder on my computer with the stl files of each part of the arm. 
 
-* I added one stl file at a time to test if it worked, I then used the example code to see the structure and added each joint. After adding each joint and stl files all I had to do was change each parts origin and rotational origin so that it created a representation of the arm in real life.  (add picture of arm)
+* I added one stl file at a time to test if it worked, I then used the example code to see the structure and added each joint. After adding each joint and stl files all I had to do was change each parts origin and rotational origin so that it created a representation of the arm in real life.  
+
+![Step12 Image][Image12]
+
+[Image12]: https://github.com/jpallent/roco222/blob/master/IMG_0242.JPG "basic commutator"
+
+![Step13 Image][Image13]
+
+[Image13]: https://github.com/jpallent/roco222/blob/master/IMG_0243.JPG "basic commutator"
+
+![Step14 Image][Image14]
+
+[Image14]: https://github.com/jpallent/roco222/blob/master/IMG_0244.JPG "basic commutator"
 
 
 

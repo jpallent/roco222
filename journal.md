@@ -130,6 +130,8 @@ There are 2 advantages of having 2 (or more) coils on the armature...
 
 [Image9]: https://github.com/jpallent/roco222/blob/master/IMG_0236.JPG "basic commutator"
 
+[Redesigned motor](https://www.youtube.com/watch?v=wWGUu8mAfnQ&feature=youtu.be)
+
 * We then decided to improve the way the brushes worked by soldering the wires to copper table then sticking it to the base and taping it down so that each part was being pushed against the armature. after some testing we found that this isnt the best of soloutions as it was faulty at times.
 
 * If we were to improve the design we would add more turns to each coil as this would increase the current around the commutator therefor incraseing the force crate by the magnetic feild and the coil interacting, this would increase the speed at which the motor is able to rotate and icrease the torque slightly. We would also try and improve the brushes so that they wernt as temperamental. Also i would use an iron core instead of 3D printing it on the armature, this would make the motor turn faster and increase the torque as it would increase the magnetic field strength.
@@ -158,6 +160,15 @@ Practical 3: Incremental encoder:
 ![Step10 Image][Image10]
 
 [Image10]: https://github.com/jpallent/roco222/blob/master/IMG_0237.JPG "basic commutator"
+
+![Step15 Image][Image15]
+
+[Image15]: https://github.com/jpallent/roco222/blob/master/arm.jpg "basic commutator"
+
+![Step16 Image][Image16]
+
+[Image16]: https://github.com/jpallent/roco222/blob/master/arm.jpg "basic commutator"
+
 
 Practical 4: motor control with Arduino
 =======================================
@@ -218,6 +229,10 @@ Practical 7: robot arm project ROS
 [Image13]: https://github.com/jpallent/roco222/blob/master/IMG_0243.JPG "basic commutator"
 
 [Robot arm moving with ROS](https://www.youtube.com/watch?v=3TiCBh8qIgg)
+
+![Step14 Image][Image14]
+
+[Image14]: https://github.com/jpallent/roco222/blob/master/arm.jpg "basic commutator"
 
 
 

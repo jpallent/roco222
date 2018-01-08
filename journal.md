@@ -78,7 +78,9 @@ Lab 1: Building a basic commutator
 
 * The first thing we did was putting the copper tape around the cork,making sure to leave 2 gaps so that wire can be wrappped around it.  next we pushed 2 pins in either side of the cork to act as the shaft for it to spin on. to finish it off we added some black table around the middle section to keep the copper in place.
 
-![commutator 1](https://www.youtube.com/watch?v=SINxiaI2JwI)
+'![commutator 1](https://www.youtube.com/watch?v=SINxiaI2JwI)'
+
+![commutator1](https://photos.google.com/u/2/photo/AF1QipNJ0Yb_H7lh9VERVTSOturvBo9PbzvuEKo2369r)
 
 * The next step was to add the wire. We wrapped about 10m of copper wire around the cork between the gaps of the copper ring on the commutator. We made sure as we were wrapping the wire around the commutator to count how many turns, In the end we finished with 139 turns. We then soldered the ends of the wires to each side of the copper commutator to complete the circuit. The wire we used was enamelled so that when it was wrapped around the commutator it didnt conduct across, this would slow down the speed of rotation of the armature.
 

@@ -161,11 +161,11 @@ Robot arm project design
 
 [bracket1](https://github.com/jpallent/roco222/blob/master/bracket1.stl)
 
-![part1 <a name = "First bracket" >stl][stl1]
 
-[stl1]: ![Step 1 <a name = "building a dc motor" >Image][Image1]
 
-[Image1]: https://github.com/jpallent/roco222/blob/master/bracket1.stl "basic commutator"
+![Step 2 <a name = "building a dc motor" >Image][Image2]
+
+[Image2]: https://github.com/jpallent/roco222/blob/master/bracket1.stl "basic commutator"
  "arm1"
 
 

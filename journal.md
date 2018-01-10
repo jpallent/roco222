@@ -178,6 +178,11 @@ Practical 5: stepper motor and arduino
 ======================================
 * As the motor is uni-polar we have 2 extra wires for ground and power, however we want it bi-polar so that it has more torque. so we connected the (blue and red) and the (green and black) and ignored the white and yellow wires. 
 
+The Schematics are as followed:
+![Schematic Image][Image15]
+
+[Image15]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_5/II_1_1.png?raw=true "basic commutator"
+
 [Stepper motor 1: Full-step mode](https://www.youtube.com/watch?v=vn7QSk69KVY)
 
 ![Step11 Image][Image11]

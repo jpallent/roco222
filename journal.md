@@ -133,7 +133,6 @@ There are 2 advantages of having 2 (or more) coils on the armature...
 [Redesigned motor](https://www.youtube.com/watch?v=wWGUu8mAfnQ&feature=youtu.be)
 
 * We then decided to improve the way the brushes worked by soldering the wires to copper table then sticking it to the base and taping it down so that each part was being pushed against the armature. after some testing we found that this isnt the best of soloutions as it was faulty at times.
-
 * If we were to improve the design we would add more turns to each coil as this would increase the current around the commutator therefor incraseing the force crate by the magnetic feild and the coil interacting, this would increase the speed at which the motor is able to rotate and icrease the torque slightly. We would also try and improve the brushes so that they wernt as temperamental. Also i would use an iron core instead of 3D printing it on the armature, this would make the motor turn faster and increase the torque as it would increase the magnetic field strength.
 
 * When printing the stl files the first time i decided to print them on my own printer, however I had a few problems as the print seemed to fail at 70% each time giving unfinised prints. After reading up on it I believe that the printer go damaged during transport to university and the sd card reader became faulty or the sd card was faulty. I decided to get the parts printed at the university but upon reciveing them I relised I gave a bit to much leeway to the sockets for the magnets and bearing, but we decided to use hot glue to keep them in place.
@@ -179,9 +178,9 @@ Practical 5: stepper motor and arduino
 * As the motor is uni-polar we have 2 extra wires for ground and power, however we want it bi-polar so that it has more torque. so we connected the (blue and red) and the (green and black) and ignored the white and yellow wires. 
 
 The Schematics are as followed:
-![Schematic Image][Image15]
+![Schematic Image][Image17]
 
-[Image15]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_5/II_1_1.png?raw=true "basic commutator"
+[Image17]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_5/II_1_1.png?raw=true "Wire Schematic"
 
 [Stepper motor 1: Full-step mode](https://www.youtube.com/watch?v=vn7QSk69KVY)
 

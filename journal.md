@@ -129,7 +129,7 @@ There are 2 advantages of having 2 (or more) coils on the armature...
 ![Step9 Image][Image9]
 
 [Image9]: https://github.com/jpallent/roco222/blob/master/IMG_0236.JPG "basic commutator"
-
+ 
 [Redesigned motor](https://www.youtube.com/watch?v=wWGUu8mAfnQ&feature=youtu.be)
 
 * We then decided to improve the way the brushes worked by soldering the wires to copper table then sticking it to the base and taping it down so that each part was being pushed against the armature. after some testing we found that this isnt the best of soloutions as it was faulty at times.
@@ -178,15 +178,53 @@ Practical 5: stepper motor and arduino
 * As the motor is uni-polar we have 2 extra wires for ground and power, however we want it bi-polar so that it has more torque. so we connected the (blue and red) and the (green and black) and ignored the white and yellow wires. 
 
 The Schematics are as followed:
+
 ![Schematic Image][Image17]
 
 [Image17]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_5/II_1_1.png?raw=true "Wire Schematic"
 
-[Stepper motor 1: Full-step mode](https://www.youtube.com/watch?v=vn7QSk69KVY)
+With wire configuration like this:
+
+![config Image][Image18]
+
+[Image18]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_5/II_1_2.jpg?raw=true "Wire configuration" 
+
+![config Image][Image19]
+
+[Image19]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_5/II_1_3.jpg?raw=true "Wire configuration" 
+
+Full-step mode:
+---------------
+
+(insert pic of table)
+
+Full step mode works by activateing a single phase at a time. However due to only the one phase being in use there is very little torque and it causes the motor to vibrate alot , because there is only 1 force acting on each end at a time.
+
+
+[Stepper motor 1: Full-step mode](https://www.youtube.com/watch?v=RJmsSzU62jI&feature=youtu.be)
 
 ![Step11 Image][Image11]
 
-[Image11]: https://github.com/jpallent/roco222/blob/master/IMG_0238.JPG "basic commutator"
+[Image11]: https://github.com/jpallent/roco222/blob/master/IMG_0238.JPG "stepper motor"
+
+Double-step mode:
+-----------------
+
+Double-step mode work by haveing both phases activated at a time meaning there is always and acctractive force and a replelling force acting at each end meaning that the motor is running with maximum torque. 
+[Stepper motor 2: Double-step mode](https://www.youtube.com/watch?v=UdCte2OhZEI&feature=youtu.be)
+
+
+Half-step mode:
+---------------
+
+Half-step mode works by alternating having both phases activated to having a single phase activated. By doing this we have a very similar torque to the previous mode , maybe slighly less but it does increase the angular resoloutin of the motor.
+[Stepper motor 3: Half-step mode](https://www.youtube.com/watch?v=TFesuTKz0_M)
+
+Micro-step mode:
+----------------
+
+Micro-step mode works by incraseing and reducing the power to each part gradually like a ac waveform. By doing this we arnt losing much torque if any but the movements of the motor becomes much smoother because the power is gradually changing it doesnt jump to the next position so quickly, therefor it does not vibrate as much.
+[Stepper motor 4: Micro-step mode](https://www.youtube.com/watch?v=uSPSt5KofKA&feature=youtu.be)
 
 Practical 6: robot arm project 
 ==============================

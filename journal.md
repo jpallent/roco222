@@ -156,22 +156,35 @@ Practical 3: Incremental encoder:
 
 [Encoder test](https://www.youtube.com/watch?v=vn7QSk69KVY)
 
+![Step24 Image][Image24]
+
+[Image24]: https://github.com/jpallent/roco222/blob/master/encoder.jpg
+
 ![Step10 Image][Image10]
 
-[Image10]: https://github.com/jpallent/roco222/blob/master/IMG_0237.JPG "basic commutator"
+[Image10]: https://github.com/jpallent/roco222/blob/master/IMG_0237.JPG 
 
 ![Step15 Image][Image15]
 
-[Image15]: https://github.com/jpallent/roco222/blob/master/IMG_0246.JPG "basic commutator"
+[Image15]: https://github.com/jpallent/roco222/blob/master/IMG_0246.JPG 
 
 ![Step16 Image][Image16]
 
-[Image16]: https://github.com/jpallent/roco222/blob/master/IMG_0247.JPG "basic commutator"
+[Image16]: https://github.com/jpallent/roco222/blob/master/IMG_0247.JPG 
 
 
 
 Practical 4: motor control with Arduino
 =======================================
+
+![Step25 Image][Image25]
+
+[Image25]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_4/I_1_1.jpg?raw=true
+
+![Step26 Image][Image26]
+
+[Image26]: https://github.com/jpallent/roco222/blob/master/motor1.jpg
+
 
 Practical 5: stepper motor and arduino
 ======================================
@@ -196,19 +209,25 @@ With wire configuration like this:
 Full-step mode:
 ---------------
 
-(insert pic of table)
+![Step20 Image][Image20]
+
+[Image20]: https://github.com/jpallent/roco222/blob/master/full%20step.jpg "Full step"
+
 
 Full step mode works by activateing a single phase at a time. However due to only the one phase being in use there is very little torque and it causes the motor to vibrate alot , because there is only 1 force acting on each end at a time.
 
 
 [Stepper motor 1: Full-step mode](https://www.youtube.com/watch?v=RJmsSzU62jI&feature=youtu.be)
 
-![Step11 Image][Image11]
+![Step21 Image][Image21]
 
-[Image11]: https://github.com/jpallent/roco222/blob/master/IMG_0238.JPG "stepper motor"
+[Image21]: https://github.com/jpallent/roco222/blob/master/IMG_0238.JPG "stepper motor"
 
 Double-step mode:
 -----------------
+![Step22 Image][Image22]
+
+[Image22]: https://github.com/jpallent/roco222/blob/master/double%20step.jpg "Double-step"
 
 Double-step mode work by haveing both phases activated at a time meaning there is always and acctractive force and a replelling force acting at each end meaning that the motor is running with maximum torque. 
 [Stepper motor 2: Double-step mode](https://www.youtube.com/watch?v=UdCte2OhZEI&feature=youtu.be)
@@ -216,6 +235,9 @@ Double-step mode work by haveing both phases activated at a time meaning there i
 
 Half-step mode:
 ---------------
+![Step23 Image][Image23]
+
+[Image23]: https://github.com/jpallent/roco222/blob/master/half%20step.jpg "Half-step"
 
 Half-step mode works by alternating having both phases activated to having a single phase activated. By doing this we have a very similar torque to the previous mode , maybe slighly less but it does increase the angular resoloutin of the motor.
 [Stepper motor 3: Half-step mode](https://www.youtube.com/watch?v=TFesuTKz0_M)
@@ -232,6 +254,8 @@ Servo control
 -------------
 * we had a problem when trying to use the potentiometer to move the servos we believe that this is because the potentiometer resistance is too low which is why its suddenly jumping positions instead of moving gradually. (add more)
 
+[Servo control with potentiometer](https://www.youtube.com/watch?v=bU45XKqbKYc&feature=youtu.be)
+[Servo control without potentiometer](https://www.youtube.com/watch?v=Ndkt1RIQ37k&t=0s)
 
 Robot arm project design
 ------------------------
@@ -263,13 +287,21 @@ Practical 7: robot arm project ROS
 
 * I added one stl file at a time to test if it worked, I then used the example code to see the structure and added each joint. After adding each joint and stl files all I had to do was change each parts origin and rotational origin so that it created a representation of the arm in real life.  
 
+![Step30 Image][Image30]
+
+[Image30]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_7/II_1_1.png?raw=true
+
+![Step31 Image][Image31]
+
+[Image31]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_7/II_1_2.png?raw=true
+
 ![Step12 Image][Image12]
 
-[Image12]: https://github.com/jpallent/roco222/blob/master/IMG_0242.JPG "basic commutator"
+[Image12]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_7/II_1_3.png?raw=true.JPG 
 
 ![Step13 Image][Image13]
 
-[Image13]: https://github.com/jpallent/roco222/blob/master/IMG_0243.JPG "basic commutator"
+[Image13]: https://github.com/jpallent/roco222/blob/master/IMG_0243.JPG 
 
 [Robot arm moving with ROS](https://www.youtube.com/watch?v=3TiCBh8qIgg)
 

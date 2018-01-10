@@ -177,14 +177,17 @@ Practical 3: Incremental encoder:
 Practical 4: motor control with Arduino
 =======================================
 
+* Step one is to place the motor shield onto the arduino board as shown: 
 ![Step25 Image][Image25]
 
 [Image25]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_4/I_1_1.jpg?raw=true
 
+This code is used to make the motor rotate :
 ![Step26 Image][Image26]
 
 [Image26]: https://github.com/jpallent/roco222/blob/master/motor1.jpg
 
+The code tells us that pin 12 controls the direction the motor spins, pin 3 controls the speed at which it rotates and pin 9 is the break. we can set direction and speed by setting their pins as either HIGH or LOW and we can enable the break by setting it HIGH. The max speed the motor can go would be set by setting it to 255 and the min speed by setting it to 0.
 
 Practical 5: stepper motor and arduino
 ======================================
@@ -287,22 +290,33 @@ Practical 7: robot arm project ROS
 
 * I added one stl file at a time to test if it worked, I then used the example code to see the structure and added each joint. After adding each joint and stl files all I had to do was change each parts origin and rotational origin so that it created a representation of the arm in real life.  
 
+Opening the joint state gui:
+----------------------------
 ![Step30 Image][Image30]
 
 [Image30]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_7/II_1_1.png?raw=true
 
+Setting up RViz:
+----------------
 ![Step31 Image][Image31]
 
 [Image31]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_7/II_1_2.png?raw=true
 
+Basic arm in Rviz:
+------------------
 ![Step12 Image][Image12]
 
 [Image12]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_7/II_1_3.png?raw=true.JPG 
 
+Finished arm in RViz:
+---------------------
 ![Step13 Image][Image13]
 
 [Image13]: https://github.com/jpallent/roco222/blob/master/IMG_0243.JPG 
 
+
+Here is the motor moving with the ROS software
+----------------------------------------------
 [Robot arm moving with ROS](https://www.youtube.com/watch?v=3TiCBh8qIgg)
 
 ![Step14 Image][Image14]

@@ -137,7 +137,7 @@ There are 2 advantages of having 2 (or more) coils on the armature...
 
 * When printing the stl files the first time i decided to print them on my own printer, however I had a few problems as the print seemed to fail at 70% each time giving unfinised prints. After reading up on it I believe that the printer go damaged during transport to university and the sd card reader became faulty or the sd card was faulty. I decided to get the parts printed at the university but upon reciveing them I relised I gave a bit to much leeway to the sockets for the magnets and bearing, but we decided to use hot glue to keep them in place.
 
-(add stl file or pictures)
+
 
 Practical 3: Incremental encoder:
 =================================
@@ -206,9 +206,6 @@ Practical 4: motor control with Arduino
 [Image25]: https://github.com/NodrogJRB/ROCO222/blob/master/Images2/Practical_4/I_1_1.jpg?raw=true
 
 This code is used to make the motor rotate :
-![Step26 Image][Image26]
-
-[Image26]: https://github.com/jpallent/roco222/blob/master/motor1.jpg
 
 ```cpp
 void setup() {

@@ -804,7 +804,7 @@ I followed the layout of the example urdf file to gain an understanding of what 
 		</visual>
 	</link>
 	
-	<joint name="base_to_first" type="revolute">
+<joint name="base_to_first" type="revolute">
 		<axis xyz="0 1 0"/>
 		<limit effort="1000" lower="0" upper="3.14" velocity="0.5"/>
 		<parent link="base_link"/>
@@ -818,6 +818,8 @@ from this we can see that they are all combined into a part called robot, so thi
 
 * I added one stl file at a time to test if it worked, I then used the example code to see the structure and added each joint. After adding each joint and stl files all I had to do was change each parts origin and rotational origin so that it created a representation of the arm in real life.  
 
+Final arm urdf file
+-------------------
 ```urdf
 <?xml version="1.0"?>
 <robot name="roco_arm"> <!--name of robot-->
@@ -965,7 +967,8 @@ Finished arm in RViz:
 
 Due to the fact that we were using 5 servos we initially tried to control all five servos howver his did not work, one reason this couldnt work was because there was insufficient power to control more than 2 as there wasnt enough current. We could fix this by powering the servos with a external power supply , this will also help give them more torque as they did struggle a bit when lifting the arm. The other reason we could not do this was because there is a limit to the amount of infomation able to transfered by the serial line. we could potentially be able to control more but the amount of infomation being sent for example the name of the joint is taking up alot of the space, if we created an int array to put this infomation in we could save some space and therefor be able to control more nodes. But we havent had any success with this yet.
 
-actual arm urdf file
+Robot arm code
+---------------
 ```cpp
 //Include Packages
 #include <ros.h>
